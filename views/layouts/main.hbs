@@ -5,8 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
 </head>
 <body>
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <button class="btn btn-outline-secondary" type="button" onclick="location.href='/'">回到首頁</button>
+    </form>
+    <form class="form-inline">
+      <button class="btn btn-sm btn-outline-secondary" type="button" style="margin-right: 10px" onclick="location.href='/about'">About</button>
+      <button class="btn btn-sm btn-outline-secondary" type="button" style="margin-right: 10px" onclick="location.href='/portfolio'">Portfolio</button>
+      <button class="btn btn-sm btn-outline-secondary" type="button" onclick="location.href='/contact'">Contact</button>
+    </form>
+  </nav>
   {{{ body }}}
+  <script src="/javascripts/jquery-3.3.1.js"></script>
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
 </body>
 </html>
